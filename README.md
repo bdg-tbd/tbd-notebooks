@@ -10,7 +10,7 @@ git clone git@github.com:bdg-tbd/tbd-notebooks.git
 ```
 
 ### run docker image
-docker  run -v `pwd`:/home/jovyan/work/ -p 8888:8888 jupyter/pyspark-notebook  
+docker  run -v \`pwd\`:/home/jovyan/work/ -p 8888:8888 jupyter/pyspark-notebook  
 
 
 ### run notebooks from spark_ml folder:
